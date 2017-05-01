@@ -1,0 +1,88 @@
+/* 49.25em == 788px */
+@media screen and (min-width: 49.25em) {
+
+  body {
+    font-size: 1.10em;
+  }
+
+  header > img {
+    float:left;
+  }
+
+  .logo {
+    padding: 10% 0 2% 0;
+    margin: auto;
+    text-align: center;
+  }
+
+  nav {
+    float: none;
+    display: block;
+  }
+
+  .menu li {
+    display: inline-block;
+  }
+
+  .menu li a {
+    text-decoration: none;
+  }
+
+  .container {
+    overflow: hidden;
+  }
+
+  .container img {
+    display: inline-block;
+    padding: 2% 2%;
+  }
+
+  .puppy {
+    width: 30%;
+    float: left;
+    height: auto;
+    /*display: none;*/
+  }
+
+  .button {
+      margin-bottom: 10%;
+      width: 350px;
+  }
+
+}
+
+/* 61.5625em == 985px */
+@media screen and (min-width: 61.5625em) {
+
+  header > img {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .menu li {
+    font-size: 1.25em;
+  }
+
+  div form {
+    display: inline-block;
+  }
+
+  .social-top {
+    padding: 2% 0;
+  }
+
+  .social i {
+    padding: 0.5em;
+    width: 50px;
+  }
+
+  .main-img {
+      display: inline;
+  }
+
+
+
+}

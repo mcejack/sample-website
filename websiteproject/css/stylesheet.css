@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+/****   Header   ****/
+header {
+  color: black;
+  background-color: white;
+  border-bottom: solid rgb(39, 16, 131) 0.40em;
+  margin: 2% 10%;
+  max-width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.topimage {
+  width: 200px;
+  border-radius: 50em;
+  border: solid 0.15em rgb(111, 113, 113);
+}
+
+.logo {
+  padding: 7% 0;
+}
+
+div > .button-top {
+  display:none;
+  text-align: center;
+}
+
+.social {
+  float: right;
+  display: inline-block;
+  padding: 5% 0;
+  overflow: hidden;
+}
+
+.social i {
+  padding: 0.5em;
+}
+
+div > form {
+  display: inline-block;
+  float: left;
+  margin-top: 2%;
+  display: none;
+}
+
+form > .searchtxt {
+  font-size: 1.10em;
+  font-family: 'Helvetica', serif;
+  background-color: rgb(204, 202, 214);
+  border-radius: 5em;
+  border-style: hidden;
+}
+
+form > .searchbut {
+  font-size: 1.10em;
+  font-family: 'Helvetica', serif;
+  border:none;
+  background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  text-align: left;
+  font-family: 'Helvetica', serif;
+  font-size: 1.10em;
+}
+
+body {
+  font-family: 'Helvetica', 'Arial', serif;
+  font-size: 16px;
+  background-color: white;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-family: 'Helvetica';
+  text-align: center;
+}
+
+.menu li {
+  text-align: center;
+  margin: 2% 2%;
+  padding: 2% 0;
+  font-family: 'Helvetica';
+}
+
+.main-img {
+  margin:auto;
+  display: none;
+}
+
+.container {
+   margin: 5% 10%;
+   max-width: 100%;
+   color: rgb(13, 13, 18);
+   box-sizing: border-box;
+   overflow: hidden;
+}
+
+.description p {
+  color: rgb(16, 40, 52);
+  padding: 2% 0;
+}
+
+.container img {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border: solid white 5px;
+}
+
+iframe {
+  margin: 2% 0%;
+}
+
+footer {
+  color: black;
+  background-color: white;
+  border-top: solid rgb(39, 16, 131) 0.40em;
+  margin: 5% 10%;
+  padding: 5% 0;
+  max-width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.button {
+  border-radius: 1em;
+  border: double 0.15em rgb(21, 1, 59);
+  margin: 5% 0;
+  text-align: center;
+  padding: 2% 2%;
+  width: 250px;
+  background-color: rgb(218, 197, 245);
+  font-weight: bold;
+  text-transform: capitalize;
+  overflow: hidden;
+}
+
+.button a{
+  text-decoration: none;
+  color: black;
+}
+
+.button:hover {
+  background-color: rgb(195, 134, 242);
+}
+
+.copywright {
+  float: left;
+  padding-top: 0.5em;
+  font-size: 0.85em;
+  font-style: italic;
+}
