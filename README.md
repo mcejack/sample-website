@@ -1,2 +1,2 @@
 # websiteproject
-Sample website created for a project in my course
+A sample website created as a project for a Front End Web Development Course. The website was designed with a particular client in mind (Robin Australian Shepherds). As the client posts all updates on their Facebook page, their page has been embedded using an iframe. This enables the client to reduce the number of updates required for their site. The site has also been designed with a few different viewports to be responsive.
