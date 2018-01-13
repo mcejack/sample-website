@@ -80,6 +80,13 @@ h1 {
   text-align: center;
 }
 
+#welcome {
+  font-size: 1.5em;
+  font-family: 'Helvetica';
+  text-align: center;
+  font-weight: bold;
+}
+
 .menu li {
   text-align: center;
   margin: 2% 2%;
